@@ -13,13 +13,10 @@ public  class Rectangle extends Figure{
     public double area (){
         return side1*side2;
     }
-
     public String toString(){
-        return "Площа паралелограму: " + area() + " Периметр паралелограму: " + perimetr();
-    }
-    @Override
-    public  void printAreaAndPerimetr(){
-        System.out.println("Площа паралелограму: "+ area()+"  Периметр паралелограму: "+perimetr());
-    }
 
+        return "Площа паралелограму: " + area() + "; "+" Периметр паралелограму: " + perimetr()+"; ";
+
+    }
 }
+
