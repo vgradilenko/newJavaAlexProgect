@@ -5,7 +5,7 @@ public class Circle extends Figure{
         radius=A;
     }
     @Override
-    public double perimetr(){
+    public  double perimetr(){
         return 2*Pi*radius;
     }
     @Override
@@ -15,13 +15,11 @@ public class Circle extends Figure{
 
     public String toString(){
 
-        return " " + area() + "; " + perimetr();
+        return "Площа круга: " + area() + "; "+" Периметр круга: " + perimetr()+"; ";
 
     }
-    @Override
-    public  void printAreaAndPerimetr(){
-               System.out.println("Площа круга: "+ area()+ "  Периметр круга: "+perimetr());
-            }
+
 }
+
 
 
