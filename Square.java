@@ -1,6 +1,5 @@
 public class Square extends Figure{
     double side1;
-
     Square(double A){
         side1=A;
             }
@@ -12,13 +11,9 @@ public class Square extends Figure{
     public double area (){
         return side1*side1;
     }
-
     public String toString(){
 
-        return "Площа квадрата: " + area() + " Периметр квадрата: " + perimetr();
-    }
-    @Override
-    public  void printAreaAndPerimetr(){
-        System.out.println("Площа квадрату: "+ area()+"  Периметр квадрату: "+perimetr());
+        return "Площа квадрату: " + area() + "; "+" Периметр квадрату: " + perimetr()+"; ";
+
     }
 }
