@@ -15,13 +15,9 @@ public class Triangle extends Figure{
     public double area (){
         return Math.sqrt(perimetr()/2*(perimetr()/2- side1)*(perimetr()/2 - side2)*(perimetr()/2-side3));
     }
-
     public String toString(){
 
-        return "Площа трикутника: " + area() + " Периметр трикутника: " + perimetr();
-    }
-    @Override
-    public  void printAreaAndPerimetr(){
-        System.out.println("Площа трикутника: "+ area()+"  Периметр трикутника: "+perimetr());
+        return "Площа трикутника: " + area() + "; "+" Периметр трикутника: " + perimetr()+"; ";
+
     }
 }
