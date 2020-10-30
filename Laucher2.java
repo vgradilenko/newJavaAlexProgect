@@ -9,9 +9,8 @@ public class Laucher2 {
 
 
         for (int i= 0;i<=figure.length-1; i ++){
-            String s = "Площа та Периметр складають: " + figure[i];
-            //System.out.println(figure[i].toString());
-            System.out.println(s);
+            String s =  figure[i].toString();
+               System.out.println(s);
         }
     }
 }
